@@ -1,0 +1,36 @@
+/*@media only screen and(min-width:481px)) and (max-width:768){*/
+.parent{
+    height:550px;
+      display:flex;
+      flex-direction: row;
+      align-content: stretch;
+      flex-wrap: wrap;
+}
+img{
+    width:200px;
+    height: fit-content;
+    border: 3px  solid cornflowerblue ;
+}
+.parent>div{
+    width:auto;
+    border: 2px solid black;
+    padding: 2%;
+    margin:2%;
+     text-align:center ;color:steelblue;
+     font-style: italic;background-color:thistle;
+}
+button{
+    color:white;
+    font-style: oblique;
+    font-size: large;background-color:black;
+}
+h2{
+    color:royalblue;
+}
+/*mobile min320 max 480 desktop min769 max1024*/
+/*@media only screen and(min-width:481px)) and (max-width:768){
+    .card{
+        display:flex;
+        fle
+    }
+}*/
